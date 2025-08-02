@@ -11,12 +11,11 @@ public class BitwiseOperators {
         int a = sc.nextInt();
         System.out.print("Enter second number: ");
         int b = sc.nextInt();
-        System.out.println("\n--- Bitwise Operations ---");
-        System.out.println("a & b (AND) = " + (a & b));
-        System.out.println("a | b (OR) = " + (a | b));
-        System.out.println("a ^ b (XOR) = " + (a ^ b));
+        System.out.println("AND = " + (a & b));
+        System.out.println("OR = " + (a | b));
+        System.out.println("XOR = " + (a ^ b));
         
-
 	}
 
 }
+
