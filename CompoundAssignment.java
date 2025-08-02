@@ -8,17 +8,12 @@ public class CompoundAssignment {
 	        System.out.print("Enter a number: ");
 	        int num = sc.nextInt();
 
-	        System.out.println("Original num = " + num);
-	        num+=5;
-	        System.out.println(num);
-	        num-=2;
-	        System.out.println(num);
-	        num*=3;
-	        System.out.println(num);
-	        num/=2;
-	        System.out.println(num);
-	        num%=4;
-	        System.out.println(num);
+	        System.out.println(num+=5);
+	        System.out.println(num-=2);
+	        System.out.println(num*=5);
+	        System.out.println(num/=3);
+	        System.out.println(num%=2);
 	}
 
 }
+
