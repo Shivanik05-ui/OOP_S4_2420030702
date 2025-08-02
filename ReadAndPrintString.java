@@ -8,7 +8,8 @@ public class ReadAndPrintString {
 		  Scanner sc = new Scanner(System.in);
 	        System.out.println("Enter string:");
 	        String str = sc.nextLine();
-	        System.out.println("String entered: " + str);
+	        System.out.println("String is " + str);
 	}
 
 }
+
