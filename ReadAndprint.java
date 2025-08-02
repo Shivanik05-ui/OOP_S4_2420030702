@@ -4,8 +4,7 @@ public class ReadAndprint {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Scanner sc = new Scanner(System.in);
-      
+        Scanner sc = new Scanner(System.in);
         System.out.print("Enter size of array: ");
         int n = sc.nextInt();
 
@@ -15,10 +14,9 @@ public class ReadAndprint {
         for (int i = 0; i < n; i++) {
             arr[i] = sc.nextInt();
         }
-
-      
-        for (int num : arr) {
-            System.out.println(num);
+        System.out.println("Array is : ");
+        for (int i = 0; i < n; i++) {
+            System.out.print(arr[i] + " ");
         }
 	}
 
